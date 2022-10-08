@@ -1,4 +1,6 @@
-﻿namespace PetsOn
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace PetsOn
 {
     public class Startup
     {
@@ -12,6 +14,14 @@
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = ContextBoundObject => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
         }
 
