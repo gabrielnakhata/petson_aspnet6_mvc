@@ -6,7 +6,7 @@ namespace PetsOn.Entities
     public class OrdemServico
     {
         [Key]
-        public int Id { get; set; }
+        public int? Id { get; set; }
         public DateTime Data { get; set; }
         public string Observacao { get; set; }
 
@@ -18,10 +18,7 @@ namespace PetsOn.Entities
         public int Id_Cliente { get; set; }
         public Cliente Cliente { get; set; }
 
-        [ForeignKey("Servico")]
-        public int Id_Servico { get; set; }
-        public Servico Servico { get; set; }
-
+        public ICollection<ItemOrdemServico> Servicos { get; set; }
 
     }
 }

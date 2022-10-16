@@ -1,8 +1,19 @@
-﻿namespace PetsOn.Entities
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace PetsOn.Entities
 {
     public class Usuario
     {
-        public int? Id_usuario { get; set; }
+        [Key]
+        public int? Id { get; set; }
+        public string Nome_Usuario { get; set; }
+        public string Email { get; set; }
+        public string Senha { get; set; }
+
+        [ForeignKey("Petshop")]
+        public int Id_Petshop { get; set; }
+        public Petshop Petshop { get; set; }
 
     }
 }
