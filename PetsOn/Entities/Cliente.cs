@@ -17,5 +17,7 @@ namespace PetsOn.Entities
         public int Id_Petshop { get; set; }
         public Petshop Petshop { get; set; }
         public ICollection<Animal> Animais { get; set; }
+
+        public ICollection<OrdemServico> OrdemServicos { get; set; }
     }
 }

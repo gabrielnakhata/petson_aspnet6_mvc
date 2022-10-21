@@ -26,6 +26,10 @@ namespace PetsOn.DAL
 
             builder.Entity<Cliente>().HasKey(x => x.Id);
 
+            builder.Entity<Cliente>().HasMany(x => x.Animais);
+
+            builder.Entity<Cliente>().HasMany(x => x.OrdemServicos);
+
             builder.Entity<Animal>().HasKey(x => x.Id);
 
             builder.Entity<OrdemServico>().HasKey( x => x.Id);
