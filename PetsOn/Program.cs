@@ -1,4 +1,6 @@
 using PetsOn;
+using PetsOn.DAL;
+using PetsOn.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 

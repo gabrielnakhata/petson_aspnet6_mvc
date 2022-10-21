@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using PetsOn.DAL;
+using Microsoft.EntityFrameworkCore;
 
 namespace PetsOn
 {
@@ -9,7 +10,7 @@ namespace PetsOn
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get;}
+        public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
         {
@@ -20,8 +21,14 @@ namespace PetsOn
                 options.CheckConsentNeeded = ContextBoundObject => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
             services.AddMvc();
+
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseSqlServer("server=.;Databae=petson;Trusted_Connection=True;MultipleActiveResultsSets=True"));
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSession();
 
         }
 
