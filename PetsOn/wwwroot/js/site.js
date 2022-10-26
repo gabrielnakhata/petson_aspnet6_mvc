@@ -1,4 +1,9 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿
+$(function () {
+    $('.carousel').carousel({
+        interval: 2000
+    });
+    $('.carousel-control.right').trigger('click');
+});
 
-// Write your JavaScript code.
+
