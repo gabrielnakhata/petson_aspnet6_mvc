@@ -36,7 +36,52 @@ i {
     margin-right: 10px;
 }
 
+.nav-item {
+    margin: 0 20px;
+}
 
+.btn-login {
+    color: #ffffff;
+    background-color: #E3A11E;
+    border-color: #63512B;
+}
 
+    .btn-login:hover,
+    .btn-login:focus,
+    .btn-login:active,
+    .btn-login.active,
+    .open .dropdown-toggle.btn-login {
+        color: #ffffff;
+        background-color: #63512B;
+        border-color: #63512B;
+    }
 
+    .btn-login:active,
+    .btn-login.active,
+    .open .dropdown-toggle.btn-login {
+        background-image: none;
+    }
 
+    .btn-login.disabled,
+    .btn-login[disabled],
+    fieldset[disabled] .btn-login,
+    .btn-login.disabled:hover,
+    .btn-login[disabled]:hover,
+    fieldset[disabled] .btn-login:hover,
+    .btn-login.disabled:focus,
+    .btn-login[disabled]:focus,
+    fieldset[disabled] .btn-login:focus,
+    .btn-login.disabled:active,
+    .btn-login[disabled]:active,
+    fieldset[disabled] .btn-login:active,
+    .btn-login.disabled.active,
+    .btn-login[disabled].active,
+    fieldset[disabled] .btn-login.active {
+        background-color: #E3A11E;
+        border-color: #63512B;
+    }
+
+    .btn-login .badge {
+        color: #E3A11E;
+        background-color: #ffffff;
+    }

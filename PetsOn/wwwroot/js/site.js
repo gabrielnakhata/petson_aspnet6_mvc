@@ -6,4 +6,3 @@ $(function () {
     $('.carousel-control.right').trigger('click');
 });
 
-
