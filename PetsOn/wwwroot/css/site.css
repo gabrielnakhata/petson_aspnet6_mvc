@@ -24,12 +24,17 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Kanit', sans-serif;
 }
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
+}
+
+a {
+    text-decoration: none;
 }
 
 i {
@@ -40,48 +45,22 @@ i {
     margin: 0 20px;
 }
 
-.btn-login {
-    color: #ffffff;
+.navbar .navbar-nav .nav-link:hover {
     background-color: #E3A11E;
-    border-color: #63512B;
+    color: #ffacb7;
 }
 
-    .btn-login:hover,
-    .btn-login:focus,
-    .btn-login:active,
-    .btn-login.active,
-    .open .dropdown-toggle.btn-login {
-        color: #ffffff;
-        background-color: #63512B;
-        border-color: #63512B;
-    }
+.navbar .navbar-nav .nav-link {
+    padding: 0.6em;
+    transition: all 0.7s;
+}
 
-    .btn-login:active,
-    .btn-login.active,
-    .open .dropdown-toggle.btn-login {
-        background-image: none;
-    }
+.navbar .navbar-brand {
+    padding: 0 0.6em;
+}
 
-    .btn-login.disabled,
-    .btn-login[disabled],
-    fieldset[disabled] .btn-login,
-    .btn-login.disabled:hover,
-    .btn-login[disabled]:hover,
-    fieldset[disabled] .btn-login:hover,
-    .btn-login.disabled:focus,
-    .btn-login[disabled]:focus,
-    fieldset[disabled] .btn-login:focus,
-    .btn-login.disabled:active,
-    .btn-login[disabled]:active,
-    fieldset[disabled] .btn-login:active,
-    .btn-login.disabled.active,
-    .btn-login[disabled].active,
-    fieldset[disabled] .btn-login.active {
-        background-color: #E3A11E;
-        border-color: #63512B;
+@media only screen and (min-width: 992px) {
+    .navbar {
+        padding: 0;
     }
-
-    .btn-login .badge {
-        color: #E3A11E;
-        background-color: #ffffff;
-    }
+}

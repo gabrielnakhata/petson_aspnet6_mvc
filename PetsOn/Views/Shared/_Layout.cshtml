@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PetsOn.styles.css" asp-append-version="true" />
+    <link href='https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap' rel='stylesheet' type='text/css'>
+
 
 </head>
 <body>
     <header>
 
-        <nav class="navbar fixed-top padding-top position-sticky navbar-expand-sm navbar-dark bg-dark">
+        <nav class="navbar fixed-top padding-top position-sticky navbar-expand-sm navbar-dark bg-dark align-items-center">
             <div class="container-fluid">
-                <a class="navbar-brand mb-0 h1" asp-area="" asp-controller="home" asp-action="index"><img class="d-inline-block align-top" src="..\img\logo-petson-apc1.svg" width="255" /></a>
+                <a class="navbar-brand mb-0 h1" asp-area="" asp-controller="home" asp-action="index"><img class="d-inline-block align-top" src="..\img\logo-petson-apc1.svg" alt="logo PetsOn" width="245" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarsupportedcontent"
                         aria-expanded="false" aria-label="toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between nav-item">
-                    <ul class="navbar-nav flex-grow-1 align-items-center">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between align-middle nav-item">
+                    <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="home" asp-action="Index">Home</a>
                         </li>
@@ -30,8 +32,8 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="home" asp-action="Cadastro">Cadastra-se</a>
                         </li>
-                        <li class="nav-item nav-link text-white">
-                            <button asp-area="" asp-controller="login" asp-action="Login" type="button" class="btn btn-login">Login</button>
+                        <li class="nav-item">
+                        <a type="button" class="btn btn-outline-warning btn-sm" asp-area="" asp-controller="login" asp-action="Login">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -47,9 +49,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-lg-center bg-secondary text-white">
         <div class="container">
-            &copy; 2022 - PetsOn - <a asp-area="" asp-controller="Home" asp-action="Privacy">Políticas de Uso</a>
+            &copy; 2022 &nbsp; | &nbsp;  PetsOn &nbsp | &nbsp <a class="text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Políticas de Uso</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
