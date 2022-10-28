@@ -8,6 +8,8 @@ namespace PetsOn.Controllers
     {
         public IActionResult Login()
         {
+            Thread.Sleep(5000);
+
             return View();
         }
 
