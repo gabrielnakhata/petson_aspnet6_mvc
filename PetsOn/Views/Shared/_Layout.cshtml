@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,9 +9,8 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PetsOn.styles.css" asp-append-version="true" />
     <link href='https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap' rel='stylesheet' type='text/css'>
-
-
 </head>
+
 <body>
     <header>
 
@@ -43,7 +43,9 @@
                 </div>
             </div>
         </nav>
+
     </header>
+
     @* <div class="container">*@
     <div>
         <main role="main" class="pb-3">
@@ -56,9 +58,11 @@
             &copy; 2022 &nbsp; | &nbsp;  PetsOn &nbsp | &nbsp <a class="text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Políticas de Uso</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
