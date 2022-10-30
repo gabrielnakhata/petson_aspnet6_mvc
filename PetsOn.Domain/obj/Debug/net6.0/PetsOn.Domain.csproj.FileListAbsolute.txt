@@ -1,0 +1,12 @@
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\bin\Debug\net6.0\PetsOn.Domain.deps.json
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\bin\Debug\net6.0\PetsOn.Domain.dll
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\bin\Debug\net6.0\PetsOn.Domain.pdb
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\obj\Debug\net6.0\PetsOn.Domain.csproj.AssemblyReference.cache
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\obj\Debug\net6.0\PetsOn.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\obj\Debug\net6.0\PetsOn.Domain.AssemblyInfoInputs.cache
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\obj\Debug\net6.0\PetsOn.Domain.AssemblyInfo.cs
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\obj\Debug\net6.0\PetsOn.Domain.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\obj\Debug\net6.0\PetsOn.Domain.dll
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\obj\Debug\net6.0\refint\PetsOn.Domain.dll
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\obj\Debug\net6.0\PetsOn.Domain.pdb
+C:\Desenvolvimento\certificacoes-tech\petson_aspnet_mvc\PetsOn\PetsOn.Domain\obj\Debug\net6.0\ref\PetsOn.Domain.dll

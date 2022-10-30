@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PetsOn.Entities;
+using PetsOn.Domain.Entities;
 
 namespace PetsOn.DAL
 {
@@ -40,10 +40,10 @@ namespace PetsOn.DAL
 
             builder.Entity<ItemOrdemServico>().HasKey(x => new { x.Id_Ordem_Servico, x.Id_Servico });
 
-            builder.Entity<ItemOrdemServico>()
-            .HasOne(x => x.OrdemServico)
-            .WithMany(y => y.Servicos)
-            .HasForeignKey(x => x.OrdemServico);
+            //builder.Entity<ItemOrdemServico>()
+            //.HasOne(x => x.OrdemServico)
+            //.WithMany(y => y.Servicos)
+            //.HasForeignKey(x => x.OrdemServico);
 
         }       
 

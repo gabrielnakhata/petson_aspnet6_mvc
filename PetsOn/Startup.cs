@@ -25,7 +25,7 @@ namespace PetsOn
 
 
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer("server=.;Databae=petson;Trusted_Connection=True;MultipleActiveResultsSets=True"));
+            options.UseSqlServer("Server=NOTEGABRIEL\\SQLEXPRESS;Database=petson;Trusted_Connection=True;"));
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSession();

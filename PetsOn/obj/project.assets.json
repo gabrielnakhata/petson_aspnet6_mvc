@@ -770,6 +770,29 @@
             "rid": "win"
           }
         }
+      },
+      "PetsOn.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PetsOn.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetsOn.Domain.dll": {}
+        }
+      },
+      "PetsOn.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PetsOn.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PetsOn.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetsOn.Service.dll": {}
+        }
       }
     }
   },
@@ -1966,13 +1989,25 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "PetsOn.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PetsOn.Domain/PetsOn.Domain.csproj",
+      "msbuildProject": "../PetsOn.Domain/PetsOn.Domain.csproj"
+    },
+    "PetsOn.Service/1.0.0": {
+      "type": "project",
+      "path": "../PetsOn.Service/PetsOn.Service.csproj",
+      "msbuildProject": "../PetsOn.Service/PetsOn.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.10",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
+      "PetsOn.Domain >= 1.0.0",
+      "PetsOn.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2002,7 +2037,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn.Domain\\PetsOn.Domain.csproj": {
+              "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn.Domain\\PetsOn.Domain.csproj"
+            },
+            "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn.Service\\PetsOn.Service.csproj": {
+              "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn.Service\\PetsOn.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

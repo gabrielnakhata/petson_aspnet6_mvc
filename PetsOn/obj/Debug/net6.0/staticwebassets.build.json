@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rUbXT0uKcpNPp0iNqW9n5WOZfSmYDMsKHUjYrVM399g=",
+  "Hash": "6zbJ83yhzknTpxgHl7QhdYgarV4YfmcNfy4X1xBAG6E=",
   "Source": "PetsOn",
   "BasePath": "_content/PetsOn",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\img\\background-petson.jpg"
     },
     {
-      "Identity": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn\\wwwroot\\img\\capa-git-peston.jpg",
+      "Identity": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn\\wwwroot\\img\\capa-git-petson.jpg",
       "SourceId": "PetsOn",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn\\wwwroot\\",
       "BasePath": "_content/PetsOn",
-      "RelativePath": "img/capa-git-peston.jpg",
+      "RelativePath": "img/capa-git-petson.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\capa-git-peston.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\capa-git-petson.jpg"
+    },
+    {
+      "Identity": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn\\wwwroot\\img\\dog-banho.jpg",
+      "SourceId": "PetsOn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn\\wwwroot\\",
+      "BasePath": "_content/PetsOn",
+      "RelativePath": "img/dog-banho.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\dog-banho.jpg"
+    },
+    {
+      "Identity": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn\\wwwroot\\img\\dog-pequeno.jpg",
+      "SourceId": "PetsOn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn\\wwwroot\\",
+      "BasePath": "_content/PetsOn",
+      "RelativePath": "img/dog-pequeno.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\dog-pequeno.jpg"
     },
     {
       "Identity": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\PetsOn\\wwwroot\\img\\grama-para-jardim-conheca-os-diferentes-tipos-usados-em-residencias-810x540.jpeg",
