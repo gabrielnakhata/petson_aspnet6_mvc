@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
+      "projectUniqueName": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
       "projectName": "PetsOn.Domain",
-      "projectPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
+      "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\obj\\",
+      "outputPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

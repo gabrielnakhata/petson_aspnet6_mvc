@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Service\\PetsOn.Service.csproj": {}
+    "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\PetsOn.Service.csproj": {}
   },
   "projects": {
-    "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj": {
+    "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
         "projectName": "PetsOn.Domain",
-        "projectPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
+        "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\obj\\",
+        "outputPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Service\\PetsOn.Service.csproj": {
+    "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\PetsOn.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Service\\PetsOn.Service.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\PetsOn.Service.csproj",
         "projectName": "PetsOn.Service",
-        "projectPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Service\\PetsOn.Service.csproj",
+        "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\PetsOn.Service.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Service\\obj\\",
+        "outputPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,8 +85,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj": {
-                "projectPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj"
+              "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj"
               }
             }
           }

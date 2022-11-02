@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wJkPGsovwLBn3b4dZ8Rq3pNIrnBK+nA1GcoL/m0O3tBTKEbyMEVgBZusVPahu7dJhy5LrDz4CFinGotAD2K2qA==",
+  "dgSpecHash": "qsLXN7uxDiamtXDEyffzR6S2wo4Rl9AQYIUSeVpIzrlozn7WjapD5YReEO+bwJzl5hCKIG0fqkeMSGKowqpsig==",
   "success": true,
-  "projectFilePath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\PetsOn.csproj",
+  "projectFilePath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn\\PetsOn.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
