@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn\\PetsOn.csproj": {}
+    "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\PetsOn.csproj": {}
   },
   "projects": {
-    "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj": {
+    "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
         "projectName": "PetsOn.Domain",
-        "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
+        "projectPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\obj\\",
+        "outputPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,18 +62,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\PetsOn.Service.csproj": {
+    "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Repository\\PetsOn.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\PetsOn.Service.csproj",
-        "projectName": "PetsOn.Service",
-        "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\PetsOn.Service.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Repository\\PetsOn.Repository.csproj",
+        "projectName": "PetsOn.Repository",
+        "projectPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Repository\\PetsOn.Repository.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\obj\\",
+        "outputPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,71 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj": {
-                "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn\\PetsOn.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn\\PetsOn.csproj",
-        "projectName": "PetsOn",
-        "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn\\PetsOn.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://consultegeo.pkgs.visualstudio.com/e5d7576c-cfd4-47db-8351-1e5d51c88261/_packaging/consulteGeo/nuget/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj": {
-                "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Domain\\PetsOn.Domain.csproj"
-              },
-              "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\PetsOn.Service.csproj": {
-                "projectPath": "C:\\Desenvolvimento\\certificacoes-tech\\petson_aspnet_mvc\\PetsOn\\src\\PetsOn.Service\\PetsOn.Service.csproj"
+              "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj"
               }
             }
           }
@@ -191,6 +134,83 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\PetsOn.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\PetsOn.csproj",
+        "projectName": "PetsOn",
+        "projectPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\PetsOn.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://consultegeo.pkgs.visualstudio.com/e5d7576c-cfd4-47db-8351-1e5d51c88261/_packaging/consulteGeo/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Domain\\PetsOn.Domain.csproj"
+              },
+              "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Repository\\PetsOn.Repository.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn.Repository\\PetsOn.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
@@ -198,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

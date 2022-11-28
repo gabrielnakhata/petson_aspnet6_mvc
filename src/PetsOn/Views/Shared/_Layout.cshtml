@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PetsOn.styles.css" asp-append-version="true" />
     <link href='https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="~/img/favicon-01.png" type="image/x-icon" />
 </head>
 
 <body>
@@ -30,13 +31,13 @@
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Políticas de uso</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Usuario" asp-action="Cadastro">Cadastra-se</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Petshop" asp-action="Cadastro">Cadastre-se</a>
                         </li>
                     </ul>
                     <a>&nbsp;&nbsp;</a>
                     <br>
                     <a class="nav-item" id="navLogin">
-                        <a type="button" id="btnFetch" onclick="Login()" class="btn btn-outline-warning" asp-area="" asp-controller="Login" asp-action="Login">&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;</a>
+                        <a type="button" id="btnFetch" class="btn btn-outline-warning" asp-controller="Login" asp-action="Login">&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;</a>
                     </a>
                     <br>
                     <a>&nbsp;&nbsp;</a>
