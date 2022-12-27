@@ -1,6 +1,8 @@
 ﻿using Domain.Interfaces;
 using Domain.Service;
+using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.EntityFrameworkCore;
+using PetsOn.Domain.Entities;
 using PetsOn.Domain.Repository;
 using PetsOn.Repository.DAL;
 using PetsOn.Repository.Entities;
@@ -30,29 +32,40 @@ namespace PetsOn
             services.AddMvc();
 
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer("Server=NOTEGABRIEL\\SQLEXPRESS;Database=petson;Trusted_Connection=True;"));
+            options.UseSqlServer(@"Server=petson.database.windows.net;Database=petson_db;User Id=gabrielpetson;Password=acesso@2022;",
+            providerOptions => providerOptions.EnableRetryOnFailure()));
 
-            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //options.UseSqlServer("Server=NOTEGABRIEL\\SQLEXPRESS;Database=petson;Trusted_Connection=True;"));
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddHttpContextAccessor();
             services.AddSession();
+            services.AddRazorPages();
 
             //Serviço Aplicação: 
             services.AddScoped<IServiceAplicationPetshop, ServiceAplicationPetshop>();
             services.AddScoped<IServiceAplicationUsuario, ServiceAplicationUsuario>();
             services.AddScoped<IServiceAplicationCliente, ServiceAplicationCliente>();
             services.AddScoped<IServiceAplicationAnimal, ServiceAplicationAnimal>();
+            services.AddScoped<IServiceAplicationServico, ServiceAplicationServico>();
+            services.AddScoped<IServiceAplicationOrdemServico, ServiceAplicationOrdemServico>();
 
             //Domínio:
             services.AddScoped<IServicePetshop, ServicePetshop>();
             services.AddScoped<IServiceUsuario, ServiceUsuario>();
             services.AddScoped<IServiceCliente, ServiceCliente>();
             services.AddScoped<IServiceAnimal, ServiceAnimal>();
+            services.AddScoped<IServiceServico, ServiceServico>();
+            services.AddScoped<IServiceOrdemServico, ServiceOrdemServico>();
 
             //Repositório:
             services.AddScoped<IRepositoryPetshop, RepositoryPetshop>();
             services.AddScoped<IRepositoryUsuario, RepositoryUsuario>();
             services.AddScoped<IRepositoryCliente, RepositoryCliente>();
             services.AddScoped<IRepositoryAnimal, RepositoryAnimal>();
+            services.AddScoped<IRepositoryServico, RepositoryServico>();
+            services.AddScoped<IRepositoryOrdemServico, RepositoryOrdemServico>();
 
         }
 
